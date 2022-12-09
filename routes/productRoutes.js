@@ -9,7 +9,7 @@ router.route("/products").get(getAllProducts);
 
 router.get("/", (req, res) => {
   res.json({
-    hello: "hi!",
+    message: "this is api/v1 route",
   });
 });
 

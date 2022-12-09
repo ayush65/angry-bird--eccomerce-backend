@@ -11,5 +11,7 @@ app.listen(port, () => {
 });
 
 app.use("/", (req, res) => {
-  res.json({ message: "hi" });
+  res.json({
+    message: "Hey There !! This is my angry bird Eccomerce app Backend",
+  });
 });
