@@ -8,7 +8,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://angry-bird-eccomerce-frontend.vercel.app",
+    origin:
+      "https://angry-bird-eccomerce-frontend-d3bvnih7v-ayush65.vercel.app",
   })
 );
 
