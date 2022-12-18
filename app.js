@@ -1,14 +1,14 @@
 /** @format */
 const express = require("express");
 const product = require("./routes/productRoutes");
-
+const bcrypt = require("bcrypt");
 const cors = require("cors");
 
 const app = express();
-
 app.use(
   cors({
     origin: "https://angry-bird-eccomerce-frontend.vercel.app",
+    credentials: true,
   })
 );
 
